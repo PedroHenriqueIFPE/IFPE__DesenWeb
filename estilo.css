@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+#menu{
+    position: fixed;
+}
+#menu ul li{
+    display: inline-block;
+}
+#menu ul li a{
+    background-color: #1E90FF;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 975px;
+    margin: 10px;
+    top: 15px;
+}
+#menu ul li a:hover{
+    color:red;
+}
+img{
+    width: 340px;
+    position: relative;
+    top: 30px;
+    left: 0px;
+}
+h1.titulo{
+    font-family: 'Lobster', cursive;
+    font-size: 55px;
+    position: absolute;
+    top: 75px;
+    left: 320px;
+}
+p.textocorpo{
+    font-family: 'Noto Serif', serif;
+    text-align: center;
+}
