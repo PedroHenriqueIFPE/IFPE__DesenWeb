@@ -5,8 +5,8 @@ p.corpo1{
 p.titulo{
     font-family: 'Lobster', cursive;
     font-size: 65px;
-    position:absolute;
-    top: 240px;
+    position:relative;
+    top: 250px;
     left: 370px;
 }
 
@@ -16,7 +16,7 @@ p.titulo{
         margin: 0;
     }
     p.titulo{
-    position: absolute;
+    position: relative;
     top: 150px;
     left: 190px;
     font-family: 'Lobster', cursive;
