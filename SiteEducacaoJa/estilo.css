@@ -1,8 +1,8 @@
 @media  screen and (max-width: 1444px) {
     body{
         margin: 0;
-        background-color: black;
-        color: white;
+        background-color: white;
+        color: black;
     }
     #menu{
         position: relative;
