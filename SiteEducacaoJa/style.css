@@ -1,5 +1,6 @@
-p{
+p.corpo1{
     font-family: 'Oswald', sans-serif;
+    text-align: center;
 }
 p.titulo{
     font-family: 'Lobster', cursive;

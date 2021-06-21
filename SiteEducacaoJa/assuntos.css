@@ -1,23 +1,11 @@
-body{
-    background-color: black;
-}
+
 table, tr, td{
-    border: 2px solid #696969;
-    color:#F0F8FF;
-}
-.titulo{
-    
-    color:#F0F8FF;
-}
-fieldset{
-    width: 30%;
-    color: white;
-    border-radius: 5px;
-    border: 2px solid #A9A9A9;
+    border: 2px solid black;
+    color:black;
 }
 legend{
-    font-family: 'Lobster', cursive;
-    text-align: center;
+    position: relative;
+    left: 90px;
 }
 div.assuntos{
     position: relative;
@@ -26,8 +14,12 @@ div.assuntos{
 }
 @media  screen and (max-width: 733px) {
     div.assuntos{
-        position: relative;
+        position: absolute;
         left: 10px;
-        top: 170px;
+        top: 250px;
+    }
+    legend{
+        left:0px;
+        text-align: center;
     }
 }
