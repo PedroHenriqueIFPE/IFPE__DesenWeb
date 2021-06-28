@@ -13,24 +13,72 @@ img.img2{
     left: 560px;
     border-radius: 50%;
 }
-p.textoss1{
+img.img3{
+    width: 180px;
+    border-radius: 50%;
     position: relative;
-    top: 10px;
-    left: 480px;
+    left: 560px;
 }
+img.img4{
+    width: 180px;
+    border-radius: 50%;
+    position: relative;
+    left: 560px;
+}
+img.img5{
+    width: 180px;
+    border-radius: 50%;
+    position: relative;
+    left: 540px;
+}
+img.img6{
+    width: 180px;
+    border-radius: 50%;
+    position: relative;
+    left: 540px;
+}
+img.img7{
+    width: 180px;
+    border-radius: 50%;
+    position: relative;
+    left: 540px;
+}
+
+
 h3.textoss1{
     position: relative;
     left: 570px;
 }
-p.textoss{
-    position: relative;
-    top: 100px;
-    left: 480px;
-}
+
 h3.textoss{
     position: relative;
-    top: 60px;
-    left: 550px;
+    top: 5px;
+    left: 570px;
+}
+
+h3.textoss2{
+    position: relative;
+    top: 5px;
+    left: 600px;
+}
+h3.textoss3{
+    position: relative;
+    top: 5px;
+    left: 580px;
+}
+h3.textoss4{
+    position: relative;
+    top: 5px;
+    left: 580px;
+}
+h3.textoss5{
+    position: relative;
+    top: 5px;
+    left: 580px;
+}
+p{
+    text-align: justify;
+    margin-left: 45px;
 }
 @media  screen and (max-width: 733px) {
     body{
@@ -48,23 +96,67 @@ h3.textoss{
         left: 190px;
         border-radius: 50%;
     }
-    p.textoss1{
+    img.img3{
+        width: 160px;
         position: relative;
-        top: 10px;
-        left: 110px;
+        left: 190px;
+        border-radius: 50%;
+    }
+    img.img4{
+        width: 160px;
+        position: relative;
+        left: 190px;
+        border-radius: 50%;
+    }
+    img.img6{
+        width: 160px;
+        position: relative;
+        left: 190px;
+        border-radius: 50%;
+    }
+    img.img5{
+        width: 160px;
+        position: relative;
+        left: 175px;
+        border-radius: 50%;
+    }
+    img.img7{
+        width: 160px;
+        position: relative;
+        left: 175px;
+        border-radius: 50%;
+    }
+    p{
+        text-align: justify;
+        margin: 10px;
     }
     h3.textoss1{
         position: relative;
         left: 180px;
     }
-    p.textoss{
-        position: relative;
-        top: 30px;
-        left: 110px;
-    }
     h3.textoss{
         position: relative;
         top: 10px;
-        left: 180px;
+        left: 190px;
+    }
+    h3.textoss2{
+        position: relative;
+        top: 5px;
+        left: 230px;
+    }
+    h3.textoss3{
+        position: relative;
+        top: 5px;
+        left: 200px;
+    }
+    h3.textoss4{
+        position: relative;
+        top: 5px;
+        left: 200px;
+    }
+    h3.textoss5{
+        position: relative;
+        top: 5px;
+        left: 200px;
     }
 }
