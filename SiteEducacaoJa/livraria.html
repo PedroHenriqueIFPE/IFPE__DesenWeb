@@ -29,6 +29,11 @@
             top: 155px;
             left:420px;
 }
+.toast{
+        position:absolute;
+        left: 1110px; 
+        top: 150px;    
+        }
 @media  screen and (max-width: 733px){
     img.livra1{
         width: 140px;
@@ -50,6 +55,9 @@
             color:blueviolet;
             text-shadow: 2px 1px purple;
 }
+.toast{
+        width:0;
+        height:0;
 }
     </style>
 
@@ -76,14 +84,31 @@
       <script>
         new window.VLibras.Widget('https://vlibras.gov.br/app');
       </script>
+      
         <hr class="s1">
     </div>
+    
     <div><p class="titulo">LivrariaEducaJá</p></div>
     <div class="projeto">
         <img src="Livraria1.jpg" class="livra">
         <img src="Livraria.jpg" class="livra1">
         <hr>
     </div>
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>Matriculas Abertas!</strong> Clique <a class="span1" href="matricula.html">Aqui</a> Para se matricular.(Caso Você não for matriculado)
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-body">
+          Olá, ainda não é matriculado?.
+          <div class="mt-2 pt-2 border-top">
+            <button type="button" class="btn btn-primary btn-sm"><a href="matricula.html" style="color: white; text-decoration: none;">Matricula-se</a></button>
+            <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="toast"><a href="index.html" style="color: white; text-decoration: none;">Inicio</a></button>
+          </div>
+        </div>
+      </div>
     <div class="card-deck">
         <div class="card">
           <img class="card-img-top" src="ciencia.jpg" alt="Imagem de capa do card">

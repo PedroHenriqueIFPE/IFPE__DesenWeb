@@ -11,7 +11,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    
+    <style>
+      a.span1{
+        color:#856404;
+        text-decoration: underline;
+      }
+      a.span1:hover{
+        text-decoration: underline;
+        font-weight: bold;
+        color: green
+
+      }
+    </style>
 
 </head>
 <body>
@@ -27,7 +38,7 @@
                             <a class="nav-link" href="index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="metodologia.html">Metodologia</a>
+                            <a class="nav-link" href="metodologia.html">Matérias</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="matricula.html">Pré-Matricula</a>
@@ -49,15 +60,16 @@
                             </a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="Horario6.html">6º ano</a>
-                                <a class="dropdown-item" href="#">7º ano</a>
-                                <a class="dropdown-item" href="#">8º ano</a>
-                                <a class="dropdown-item" href="#">9º ano</a>
+                                <a class="dropdown-item" href="horario7.html">7º ano</a>
+                                <a class="dropdown-item" href="horario8.html">8º ano</a>
+                                <a class="dropdown-item" href="horario9.html">9º ano</a>
                             </div>
                         </li>
                     </ul>
             </div>
         </div>
     </nav>
+    
     <div class="libras">
     <div vw class="enabled">
         <div vw-access-button class="active"></div>
@@ -70,6 +82,12 @@
         new window.VLibras.Widget('https://vlibras.gov.br/app');
       </script>
         <hr class="s1">
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+          <strong>Matriculas Abertas!</strong> Clique <a class="span1" href="matricula.html">Aqui</a> Para se matricular.(Caso Você não for matriculado)
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
     </div>
     <div><p class="titulo">EducaçãoJá</p></div>
     <div class="projeto">
