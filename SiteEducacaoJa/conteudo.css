@@ -78,7 +78,10 @@ h3.textoss5{
 }
 p{
     text-align: justify;
-    margin-left: 45px;
+    margin-left: 65px;
+}
+img:hover{
+    border-radius: 0%;
 }
 @media  screen and (max-width: 733px) {
     body{
@@ -125,6 +128,9 @@ p{
         position: relative;
         left: 175px;
         border-radius: 50%;
+    }
+    img:hover{
+        border-radius: 0%;
     }
     p{
         text-align: justify;
